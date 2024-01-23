@@ -28,25 +28,26 @@ h1 {
   font-size: 7em;
   margin-left: 5vw;
   margin-top: 5vh;
+  margin-bottom: 5vh;
   height: none;
   font-family: cursive;
 }
 
-p {
+.intro {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 5vw;
   margin-top: 6vh;
+  margin-bottom: 5vh;
   margin-right: 35vw;
   font-size: 2em;
   font-weight: 10;
   line-height: 1.5;
 }
 
-.myImage {
-  display: flex;
+.Image {
   min-height: 20rem;
   max-width: 100%;
-  margin-top: -42vh;
+  margin-top: -48vh;
   margin-left: 62vw;
   margin-bottom: 3vh;
   margin-right: 2vw;
@@ -54,9 +55,43 @@ p {
 }
 
 .quote {
+  font-size: 2em;
   margin-right: 40vw;
+  margin-left: 5vw;
   line-height: 1.8;
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.about1 {
+  display: flex;
+  border: 2px solid black;
+  padding: 2em;
+  margin: 0 auto;
+  margin: 3em 3em;
+  justify-content: space-evenly;
+}
+
+hr {
+  margin-top: 3em;
+  border-bottom: 3px solid black;
+}
+
+.hobbies {
+  margin-top: 2rem;
+  font-size: 50px;
+  text-decoration: underline 2px;
+  text-align: center;
+}
+
+#basketball {
+  width: 60vh;
+  height: 20rem;
+  margin-right: 3em;
+}
+
+.discrip {
+  font-size: 2em;
+  line-height: 1.2;
 }
