@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <script src="javascript.js"></script>
   </head>
   <body>
     <nav class="flexbox">
@@ -18,21 +19,23 @@
     </nav>
 
     <hr />
-    <div class="contact">Contact Me</div>
-    <div class="row">
+    <form id="form" action="success.html">
+      <div class="contact">Contact Me</div>
+      <div class="row">
         <div class="center">
-        <label for="name">Name:</label>
-        <input id='info' type="text" name="name" />
+          <label for="name">Name:</label>
+          <input id="info" type="text" name="name" />
         </div>
         <div class="center">
-        <label for="email">Email:</label>
-        <input id='info' type="email" name="email" />
+          <label for="email">Email:</label>
+          <input id="info" type="email" name="email" />
         </div>
         <div class="center">
-        <label for="message">Message:</label>
-        <input class="messBox" type="text" name="message"></input>
-        <button id="submit" type="submit">SUBMIT</button>
+          <label for="message">Message:</label>
+          <textarea rows="5" cols="58"></textarea>
+          <button id="submit" type="submit">SUBMIT</button>
         </div>
-    </div>
+      </div>
+    </form>
   </body>
 </html>
